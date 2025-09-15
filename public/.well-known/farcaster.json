@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "Guardian AI",
+    "subtitle": "Built with Zara",
+    "description": "Guardian AI is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://508dcd273faf412db239bbe9b85f1503-42r5.vercel.app",
+    "splashImageUrl": "https://508dcd273faf412db239bbe9b85f1503-42r5.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://508dcd273faf412db239bbe9b85f1503-42r5.vercel.app/image.png",
+    "tagline": "Guardian AI",
+    "screenshotUrls": [
+      "https://508dcd273faf412db239bbe9b85f1503-42r5.vercel.app/screenshot.png",
+      "https://508dcd273faf412db239bbe9b85f1503-42r5.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://508dcd273faf412db239bbe9b85f1503-42r5.vercel.app/api/webhook"
+  }
+}
