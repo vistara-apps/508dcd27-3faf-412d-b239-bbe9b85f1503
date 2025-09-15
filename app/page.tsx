@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useMiniKit } from '@coinbase/minikit';
 import { AppShell } from '../components/AppShell';
 import { EmergencyButton } from '../components/EmergencyButton';
 import { HealthStatus } from '../components/HealthStatus';
@@ -12,7 +11,6 @@ import { FallDetectionService } from '../lib/fallDetection';
 import { useGuardianStore } from '../lib/store';
 
 export default function HomePage() {
-  const { context } = useMiniKit();
   const [activeTab, setActiveTab] = useState<'dashboard' | 'contacts' | 'history' | 'settings'>('dashboard');
   const [isMonitoring, setIsMonitoring] = useState(false);
   const { user, alerts, addAlert } = useGuardianStore();
@@ -51,7 +49,6 @@ export default function HomePage() {
       type: 'manual',
       status: 'pending',
       recipientsNotified: [],
-      location: null,
       severity: 'high',
     });
   };
